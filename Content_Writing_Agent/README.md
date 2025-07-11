@@ -37,11 +37,12 @@ It then responds to multiple prompts related to content writing, such as article
 ---
 
 ## 📂 Project Structure
-content-writing-agent/  
-│  
-├── .env # Contains GROQ_API_KEY  
-├── agent_content.py # Main script  
-├── README.md # This file
+   content-writing-agent/  
+   │  
+   ├── .env # Contains GROQ_API_KEY  
+   ├── agent_content.py # Main script  
+   ├── README.md # This file
+
 
 ---
 
