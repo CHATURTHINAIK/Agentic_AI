@@ -4,8 +4,6 @@
 
 **ContentWritingAgent** is an intelligent content generation agent built using the **Phi framework** and **Groq-hosted LLaMA 3.3-70B** model. It demonstrates the principles of **Agentic AI** by acting as an expert content writer that adapts its output based on the user's intent, tone, format, and constraints.
 
-This project is part of a 30-mark academic assignment exploring real-world applications of Agentic AI.
-
 ---
 
 ## 🛠 Features
@@ -39,3 +37,57 @@ It then responds to multiple prompts related to content writing, such as article
 ---
 
 ## 📂 Project Structure
+content-writing-agent/
+│
+├── .env # Contains GROQ_API_KEY
+├── agent_content.py # Main script
+├── README.md # This file
+
+
+---
+
+## 💡 Sample Prompts
+
+The agent was tested with the following tasks:
+
+1. **Article Writing**  
+   _"Write a 500-word article on 'The Impact of Social Media on Teenagers'..."_
+
+2. **Motivational Writing**  
+   _"Write a motivational paragraph for college students struggling with time..."_
+
+3. **Product Description**  
+   _"Describe a portable blender with features, use cases, and a slogan..."_
+
+4. **Idea Generation**  
+   _"Give 5 creative blog post ideas on personal finance..."_
+
+5. **Story Planning**  
+   _"Plan a short story about an AI that learns to paint..."_
+
+6. **Blog Structuring & Writing**  
+   _"Outline and write a blog post on the future of AI agents..."_
+
+---
+
+## 🔐 Environment Setup
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/CHATURTHINAIK/Agentic_AI.git
+   cd Agentic_AI/Content_Writing_Agent
+   
+2. **Create a**```bash .env **file**  
+   ```bash
+   GROQ_API_KEY=your_api_key_here
+
+3. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+
+---
+
+## 🧪 Running the Project
+
+```bash
+python content_writer.py
