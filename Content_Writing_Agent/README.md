@@ -37,12 +37,11 @@ It then responds to multiple prompts related to content writing, such as article
 ---
 
 ## 📂 Project Structure
-content-writing-agent/
-│
-├── .env # Contains GROQ_API_KEY
-├── agent_content.py # Main script
+content-writing-agent/  
+│  
+├── .env # Contains GROQ_API_KEY  
+├── agent_content.py # Main script  
 ├── README.md # This file
-
 
 ---
 
@@ -51,22 +50,22 @@ content-writing-agent/
 The agent was tested with the following tasks:
 
 1. **Article Writing**  
-   _"Write a 500-word article on 'The Impact of Social Media on Teenagers'..."_
+   _"Write a 500-word article on 'The Impact of Social Media on Teenagers' for a general audience. Use a clear structure with an introduction, 2–3 body paragraphs, and a conclusion."_
 
 2. **Motivational Writing**  
-   _"Write a motivational paragraph for college students struggling with time..."_
+   _"Write a motivational paragraph of 5 sentences for college students who are struggling with time management. Make the tone friendly and slightly humorous."_
 
 3. **Product Description**  
-   _"Describe a portable blender with features, use cases, and a slogan..."_
+   _"Help me generate content for a product description. The product is a portable blender. Write 3 bullet points for features, 2 use cases, and a catchy slogan."_
 
 4. **Idea Generation**  
-   _"Give 5 creative blog post ideas on personal finance..."_
+   _"Give me 5 creative blog post ideas about personal finance for students. Keep the titles catchy and under 10 words."_
 
 5. **Story Planning**  
-   _"Plan a short story about an AI that learns to paint..."_
+   _"Plan a short story about an AI that learns to paint. Include a plot summary, main characters, and 3 key turning points."_
 
 6. **Blog Structuring & Writing**  
-   _"Outline and write a blog post on the future of AI agents..."_
+   _"I want to write an informative blog post on 'The Future of AI Agents'. First, give me a 5-point outline. Then, write a paragraph for each point."_
 
 ---
 
