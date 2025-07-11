@@ -10,13 +10,13 @@ This repository is a collection of multiple **LLM-powered agentic applications**
 ---
 
 ## 📁 Project Structure
-AGENTIC-AI/
-│
-├── README.md # ← You're here!
-│
-├── Content_Writing_Agent/ # ✍️ Agent for content creation
-│ ├── content_writer.py # Main script
-│ ├── README.md # Details and usage
+AGENTIC-AI/  
+│  
+├── README.md # ← You're here!  
+│  
+├── Content_Writing_Agent/ # ✍️ Agent for content creation  
+│ ├── content_writer.py # Main script  
+│ ├── README.md # Details and usage  
 │ └── .env # Groq API key
 
 ---
@@ -32,8 +32,3 @@ AGENTIC-AI/
 ---
 
 Each agent has its **own README and setup instructions**.  
-To get started:
-
-1. Navigate to the desired agent directory:
-   ```bash
-   cd content-writing-agent
