@@ -76,7 +76,7 @@ The agent was tested with the following tasks:
    git clone https://github.com/CHATURTHINAIK/Agentic_AI.git
    cd Agentic_AI/Content_Writing_Agent
    
-2. **Create a**```bash .env **file**  
+2. **Create a** .env **file**  
    ```bash
    GROQ_API_KEY=your_api_key_here
 
